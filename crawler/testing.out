@@ -1,0 +1,42 @@
+./testing.sh
+Testing letters to depth 4 saved in letters dir
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/A.html
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/A.html
+Url found: https://en.wikipedia.org/wiki/Algorithm
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Url found: https://en.wikipedia.org/wiki/Breadth-first_search
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/C.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Url found: https://en.wikipedia.org/wiki/ENIAC
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/F.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/G.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/A.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Url found: https://en.wikipedia.org/wiki/Depth-first_search
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/C.html
+Url found: https://en.wikipedia.org/wiki/Computational_biology
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Testing wikipedia to depth 1 saved in wiki dir
+Page explored: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./Computer_science.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./C_(programming_language).html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./Unix.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./Dartmouth_College.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./Hash_table.html
+Url found: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/./Linked_list.html
+Testing with non-internal url
+Problem with the seed URL
+Testing with non-existent directory
+Directory does not exist
+Testing with negative depth
+The max depth much be non-negative
+Testing toscrape to depth 0 saved in toscrape dir
