@@ -24,6 +24,9 @@ bool pageScanner(bag_t *pages, hashtable_t *urls, webpage_t *page){
 			webpage_t *newpage = webpage_new(url, webpage_getDepth(page)+1, NULL);
 			bag_insert(pages, newpage);
 		}
+		else{
+			free(url);
+		}
 	}
 	return true;
 }

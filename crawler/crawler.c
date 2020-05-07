@@ -35,20 +35,24 @@ int main(int argc, char *argv[]) {
                 return 3;
 	}
 	if (maxDepth<0){
-		printf("The max depth much be non-negative\n");
+		printf("The max depth must be non-negative\n");
 		return 4;
 	}
 
 	bag_t *webpages = bag_new();
 	hashtable_t *URLs = hashtable_new(maxDepth+1);
+	char *firstURL = malloc((strlen(seedURL)+1) * sizeof(char));
+	strcpy(firstURL, seedURL);
 
 	//seed webpage
-	webpage_t *first = webpage_new(seedURL, 0, NULL);
+	webpage_t *first = webpage_new(firstURL, 0, NULL);
 	bag_insert(webpages, first);
 	hashtable_insert(URLs, webpage_getURL(first), "");
 	
-	//webpage_delete(first);	
+	//crawler	
 	crawler(webpages, URLs, maxDepth, pageDir);
+	
+	//clean up
 	bag_delete(webpages, NULL);
 	hashtable_delete(URLs, NULL);	
 	return 0;
@@ -70,6 +74,7 @@ void crawler (bag_t *pages, hashtable_t *urls, int maxDepth, char *pageDir){
 				 printf("Page failed to scan.\n");
 			}
 		}
+		webpage_delete(current);
 		current = bag_extract(pages);
 	}
 }
