@@ -3,7 +3,7 @@ L = ../libcs50
 
 CC = gcc
 GFLAGS = -Wall -pedantic -std=c11 -ggdb -I $L
-OBJS = pagedir.o
+OBJS = pagedir.o index.o word.o
 LIB = common.a
 LLIBS = $L/libcs50-given.a
 
