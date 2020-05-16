@@ -22,8 +22,10 @@ bool build_helper(char *file, hashtable_t *index, int id){
 
         //get url, maxdepth and html for the webpage
         char *url = freadlinep(fp);
-        int maxDepth = atoi(freadlinep(fp));
+	char *stringdepth = freadlinep(fp); // this line needed to free the allocated memory
+        int maxDepth = atoi(stringdepth);
         char *html = freadfilep(fp);
+	free(stringdepth);
         fclose(fp);
         webpage_t *page = webpage_new(url, maxDepth, html);
 
@@ -41,7 +43,6 @@ bool build_helper(char *file, hashtable_t *index, int id){
 		}
                 free(result);
         }
-        
 	webpage_delete(page);
 	return true;
 }
@@ -94,18 +95,22 @@ bool index_save (char *file, hashtable_t *index){
 }
 
 bool index_load(char *file, hashtable_t *index){
+	//checking if file can be opened
 	FILE *fp;
         if ((fp = fopen(file, "r")) == NULL) {
                 return false;
         }
+	
+	//creating variables
 	char *word;
-	int id;
+	int doc;
 	int count;
-	while ((word = freadwordp(fp)) !=NULL){
+	while((word = freadlinep(fp)) !=NULL){//start each line by getting the word
+		//create new counter with that word
 		counters_t *insert=counters_new();
 		hashtable_insert(index, word, insert);
-		while (fscanf(fp, "%d %d ", &id, &count) == 2) {
-     			counters_set(hashtable_find(index, word), id, count);
+		while (fscanf(fp, "%d %d ", &doc, &count) == 2) {//while you can succesfully get two ints, insert into the index
+     			counters_set(hashtable_find(index, word), doc, count);
     		}
 		free(word);
 	}

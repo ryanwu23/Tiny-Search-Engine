@@ -1,0 +1,12 @@
+./testing.sh
+Testing the creation of index from ../crawler/wiki to output
+Using indexsort.awk to create output.sort
+Testing indextest by loading from output to output2
+Using indexsort.awk to create output2.sort
+Files output.sort and output2.sort should be the same
+Checking with cmp function. If nothing printed then output.sort and output2.sort are identical.
+Testing with non-existant directory
+Directory does not exist.
+Testing with non-writtable file
+File cannot be written.
+Done testing
