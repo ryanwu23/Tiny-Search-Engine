@@ -24,5 +24,5 @@ No assumptions beyond those that are clear from the spec.
 
 ### Compilation
 To compile first run `make` in the common library to create `common.a`.
-Run `make` in crawler directory to make runnable file used by `./indexer`.
+Run `make` in indexer directory to make runnable file used by `./indexer` and the runnable file `./indextest`.
 To simply test with testing.sh, use `make test`.
