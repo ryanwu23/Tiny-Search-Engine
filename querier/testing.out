@@ -1,0 +1,373 @@
+./testing.sh
+Testing wiki with fuzzquery with 100 inputs
+NOTE: need to have wiki directory created by crawler and output file created by indexer ../crawler/wiki ../indexer/output
+./fuzzquery: generating 100 queries from 6506 words
+Query? Query: postgraduates AND technoethics 
+No documents match.
+-----------------------------------------------
+Query? Query: instituted OR hashtable procedural OR quakers bingen 
+Matches 1 documents (ranked):
+score	3	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: bruce collier OR reality 
+Matches 1 documents (ranked):
+score	2	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+-----------------------------------------------
+Query? Query: twice-damaged inuktitut cint OR tabard OR world-paralyzing OR game 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: kill OR night persuitte cryogenics AND reasonably OR collaboration 
+Matches 2 documents (ranked):
+score	2	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: comes manual putnam slide OR kinds 
+Matches 2 documents (ranked):
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: operates 
+No documents match.
+-----------------------------------------------
+Query? Query: simplifying versions OR verilog 
+Matches 1 documents (ranked):
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+-----------------------------------------------
+Query? Query: trend 
+No documents match.
+-----------------------------------------------
+Query? Query: try OR shqip OR uncover AND andrew AND georgian 
+Matches 5 documents (ranked):
+score	3	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+score	2	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+score	1	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+-----------------------------------------------
+Query? Query: utilities fiedler best 
+No documents match.
+-----------------------------------------------
+Query? Query: initializer AND collaboration object OR colby gui 
+No documents match.
+-----------------------------------------------
+Query? Query: delegates AND analogous arctic AND Osage prevalently OR matt 
+No documents match.
+-----------------------------------------------
+Query? Query: carvestrene OR landowner biographies native room OR physics 
+Matches 1 documents (ranked):
+score	3	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: dev OR supercomputers freed OR portion OR mimics 
+Matches 3 documents (ranked):
+score	4	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+score	2	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+-----------------------------------------------
+Query? Query: area 
+No documents match.
+-----------------------------------------------
+Query? Query: tenure OR from 
+Matches 1 documents (ranked):
+score	2	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: transgenders OR explore AND unintuitive 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: miami OR overinstruct OR wgwikieditorenabledmodules AND cinchonism OR unburned grouping 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: importance Yahiya doran hsieh spongin 
+No documents match.
+-----------------------------------------------
+Query? Query: basic OR scanning OR occupy OR prevalent AND slapstick 
+Matches 6 documents (ranked):
+score	9	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+score	7	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	4	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+score	2	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+-----------------------------------------------
+Query? Query: films AND water 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: effects incumbently hard OR blemishes AND openbsd 
+No documents match.
+-----------------------------------------------
+Query? Query: gap evaluation OR benchmark OR linguistics howard deallocation 
+Matches 2 documents (ranked):
+score	5	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: fifty-year blog moose citeseer 
+No documents match.
+-----------------------------------------------
+Query? Query: printing 
+No documents match.
+-----------------------------------------------
+Query? Query: student AND javascript OR onto AND freeware 
+No documents match.
+-----------------------------------------------
+Query? Query: consequences 
+No documents match.
+-----------------------------------------------
+Query? Query: intransitivity OR useeditwarning straight OR emollients 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: corespondents OR files therefore OR paradigm retirement tracy 
+Matches 3 documents (ranked):
+score	5	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+score	1	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+-----------------------------------------------
+Query? Query: applied OR xor OR fellowships 
+Matches 5 documents (ranked):
+score	10	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+score	3	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: logname bicentennial AND enumerated 
+No documents match.
+-----------------------------------------------
+Query? Query: owes hype 
+No documents match.
+-----------------------------------------------
+Query? Query: expressed encyclop view 
+No documents match.
+-----------------------------------------------
+Query? Query: keyword AND brian OR bates AND Blagg where kondracke 
+Matches 1 documents (ranked):
+score	12	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: chylemia slide queen OR upne environments 
+No documents match.
+-----------------------------------------------
+Query? Query: fast 
+No documents match.
+-----------------------------------------------
+Query? Query: converge stephan AND bits 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: migration courtyard tzafrir computing nant sukkah 
+No documents match.
+-----------------------------------------------
+Query? Query: coordinates Pripet 
+No documents match.
+-----------------------------------------------
+Query? Query: meta OR uneffervescent AND discretely OR vassar 
+Matches 1 documents (ranked):
+score	1	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+-----------------------------------------------
+Query? Query: perfect OR misses OR gangrenes OR rivier OR formats disanalogous 
+Matches 2 documents (ranked):
+score	11	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: occurrences arthur calculation OR asynchronous OR athletic OR modifying 
+Matches 3 documents (ranked):
+score	12	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	2	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+-----------------------------------------------
+Query? Query: wgtitle 
+No documents match.
+-----------------------------------------------
+Query? Query: rules AND conservatives balance OR subscripts 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: delaware misbecoming AND proportions OR titans AND collisions 
+No documents match.
+-----------------------------------------------
+Query? Query: archive OR wgpagecontentmodel 
+Matches 3 documents (ranked):
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+score	1	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+-----------------------------------------------
+Query? Query: speak 
+No documents match.
+-----------------------------------------------
+Query? Query: clearinghouse Muscicapa 
+No documents match.
+-----------------------------------------------
+Query? Query: umask colombin contributors 
+No documents match.
+-----------------------------------------------
+Query? Query: pairs written choice straight-grown critics AND pledge 
+No documents match.
+-----------------------------------------------
+Query? Query: parsers 
+No documents match.
+-----------------------------------------------
+Query? Query: preferable OR evolved 
+Matches 2 documents (ranked):
+score	1	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+-----------------------------------------------
+Query? Query: interconvertible AND warnings 
+Matches 1 documents (ranked):
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: declaring 
+No documents match.
+-----------------------------------------------
+Query? Query: wgrestrictionedit elected row internal OR anjuta 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: hand OR ethics ipl unnamed OR saving 
+Matches 3 documents (ranked):
+score	5	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	2	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+score	1	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+-----------------------------------------------
+Query? Query: serialization OR fame OR informatique cambridge AND viscera OR qnx 
+Matches 3 documents (ranked):
+score	2	doc	7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Computer_science.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: try AND experimental semisentimental constant AND existed 
+Matches 4 documents (ranked):
+score	1	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Unix.html 
+score	1	doc	6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/C_(programming_language).html 
+-----------------------------------------------
+Query? Query: heidelberg OR adam OR ecotechnology ajoint mario AND sigmoidopexy 
+Matches 3 documents (ranked):
+score	3	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+score	1	doc	2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Linked_list.html 
+score	1	doc	3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Hash_table.html 
+-----------------------------------------------
+Query? Query: dwiggins AND single 
+Matches 1 documents (ranked):
+score	1	doc	4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/wikipedia/Dartmouth_College.html 
+-----------------------------------------------
+Query? Query: hipo- semicolon AND revealed slenska 
+No documents match.
+-----------------------------------------------
+Query? Query: shares 
+No documents match.
+-----------------------------------------------
+Query? Query: mural 
+No documents match.
+-----------------------------------------------
+Query? Query: partition lot AND showcount AND updating OR technophobia OR ping 
+No documents match.
+-----------------------------------------------
+Query? Query: brand AND baw derives those 
+No documents match.
+-----------------------------------------------
+Query? Query: let ilokano AND femtotechnology offset unstatic OR coded 
+No documents match.
+-----------------------------------------------
+Query? Query: procedural aaron 
+No documents match.
+-----------------------------------------------
+Query? Query: become operating 
+No documents match.
+-----------------------------------------------
+Query? Query: admissions recruiting moriarty OR strategies 
+No documents match.
+-----------------------------------------------
+Query? Query: few OR encyclopedia phillips AND enlarged 
+No documents match.
+-----------------------------------------------
+Query? Query: logname OR ingalls eventually generation 
+No documents match.
+-----------------------------------------------
+Query? Query: monolithic modify 
+No documents match.
+-----------------------------------------------
+Query? Query: bulkdelcourses OR hobey 
+No documents match.
+-----------------------------------------------
+Query? Query: combine OR readable Erinaceidae AND whitespace 
+No documents match.
+-----------------------------------------------
+Query? Query: setting AND cycle recrementitious france Sidoma broadcasting 
+No documents match.
+-----------------------------------------------
+Query? Query: Chaeronea OR perdue AND activity 
+No documents match.
+-----------------------------------------------
+Query? Query: used OR turingineer design currently 
+No documents match.
+-----------------------------------------------
+Query? Query: located pipes searching 
+No documents match.
+-----------------------------------------------
+Query? Query: wire goals OR plot resembles 
+No documents match.
+-----------------------------------------------
+Query? Query: meals OR portraits fragmented metaphysically ep 
+No documents match.
+-----------------------------------------------
+Query? Query: trustee forensic 
+No documents match.
+-----------------------------------------------
+Query? Query: tordrillite OR contemporary scheme fourb advancing compliance 
+No documents match.
+-----------------------------------------------
+Query? Query: opsy scientific OR sql OR megascale OR autres 
+No documents match.
+-----------------------------------------------
+Query? Query: guarantees 
+No documents match.
+-----------------------------------------------
+Query? Query: enotifwatchlistpages AND http 
+No documents match.
+-----------------------------------------------
+Query? Query: depriving repeats conf hopscotch OR Gedankenexperiment OR interchangeable 
+No documents match.
+-----------------------------------------------
+Query? Query: semantics intramural explanation island proficiency 
+No documents match.
+-----------------------------------------------
+Query? Query: biomedical howard eglateres OR handled AND hilbert absent 
+No documents match.
+-----------------------------------------------
+Query? Query: quinnipiac 
+No documents match.
+-----------------------------------------------
+Query? Query: kalaallisut AND zoning OR isi OR louise invariants historically 
+No documents match.
+-----------------------------------------------
+Query? Query: joe rdate managing stand AND mulder 
+No documents match.
+-----------------------------------------------
+Query? Query: john filled wgaction 
+No documents match.
+-----------------------------------------------
+Query? Query: miller rudolph syntax 
+No documents match.
+-----------------------------------------------
+Query? Query: unwettable enterprise AND scrofulotuberculous literals OR odf symbols 
+No documents match.
+-----------------------------------------------
+Query? Query: march OR explanatory OR bears 
+No documents match.
+-----------------------------------------------
+Query? Query: style OR crawfordsville OR trustee layout settlement 
+No documents match.
+-----------------------------------------------
+Query? Query: polski OR forms 
+No documents match.
+-----------------------------------------------
+Query? Query: Spelaites net store schpero OR uncontrolled search 
+No documents match.
+-----------------------------------------------
+Query? Query: reflects contributed AND sartaj concept 
+No documents match.
+-----------------------------------------------
+Query? 

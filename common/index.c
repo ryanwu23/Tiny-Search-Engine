@@ -105,7 +105,7 @@ bool index_load(char *file, hashtable_t *index){
 	char *word;
 	int doc;
 	int count;
-	while((word = freadlinep(fp)) !=NULL){//start each line by getting the word
+	while((word = freadwordp(fp)) !=NULL){//start each line by getting the word
 		//create new counter with that word
 		counters_t *insert=counters_new();
 		hashtable_insert(index, word, insert);
