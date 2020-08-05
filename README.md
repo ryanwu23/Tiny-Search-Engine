@@ -1,7 +1,5 @@
 # Ryan Wu
-## CS50 Winter 2020, Tiny Search Engine
-
-GitHub username: ryanwu23
+## Tiny Search Engine Project
 
 To build, run `make`.
 
