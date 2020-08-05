@@ -1,7 +1,4 @@
-# CS50 Lab 6
-## Ryan Wu, CS50 Spring 2020
-
-### Querier
+## Querier
 `querier.c`
 
 ### Usage
