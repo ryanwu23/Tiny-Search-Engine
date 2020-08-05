@@ -1,6 +1,3 @@
-# CS50 Lab 4
-## Ryan Wu, CS50 Spring 2020
-
 ### Common Library for TSE
 
 ### Usage
