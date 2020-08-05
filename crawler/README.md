@@ -1,4 +1,4 @@
-### Crawler
+## Crawler
 `crawler.c` crawls a website and retrieves webpages starting with a specified URL.
 
 ### Usage
