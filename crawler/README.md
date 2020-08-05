@@ -1,6 +1,3 @@
-# CS50 Lab 4
-## Ryan Wu, CS50 Spring 2020
-
 ### Crawler
 `crawler.c` crawls a website and retrieves webpages starting with a specified URL.
 
