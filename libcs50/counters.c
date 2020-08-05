@@ -1,5 +1,4 @@
-/* Ryan Wu cs50
- * April 2020
+/* Ryan Wu
  * counters.c
  */
 
