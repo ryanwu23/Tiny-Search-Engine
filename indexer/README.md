@@ -1,7 +1,4 @@
-# CS50 Lab 5
-## Ryan Wu, CS50 Spring 2020
-
-### Indexer
+## Indexer
 `indexer.c` reads from documents from a directory and builds an inverted index mapping from words to documents, and writes that index to a file.
 
 ### Usage
